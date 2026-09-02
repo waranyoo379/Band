@@ -4,6 +4,7 @@ const links = [
   { href: "/", label: "หน้าแรก" },
   { href: "/courses", label: "รายวิชา" },    
   { href: "/about", label: "เกี่ยวกับ" },
+  { href: "/band", label: "วงดนตรี" },
 ];
 
 export default function Navbar() {

@@ -1,15 +1,18 @@
 export default function AboutPage() {
   return (
-    <main className="container mx-auto max-w-2xl px-6 py-16">
-      <h1>เกี่ยวกับเว็บไซต์</h1>
-      <p className="mt-3 text-neutral-500">
-        เว็บไซต์นี้เป็นเว็บไซต์สำหรับนักศึกษามหาวิทยาลัย 67 เพื่อใช้ในการเรียนการสอนและการลงทะเบียนรายวิชา
-      </p>
-      <section className="mt-10 space-y-8">
-        <div className="rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
-          <p>เว็บไซต์นี้พัฒนาโดยนักศึกษามหาวิทยาลัย 67</p>
-        </div>
-      </section>
+    <main className="max-w-3xl mx-auto py-8">
+      <h1 className="text-3xl font-bold text-gray-900 mb-6">เกี่ยวกับ(About)</h1>
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-4 text-gray-700 leading-relaxed">
+
+        <h2 className="text-xl font-semibold text-gray-900 pt-2">ฟีเจอร์หลักในระบบ:</h2>
+        <ul className="list-disc list-inside space-y-2">
+          <li>ผลการลงทะเบียน</li>
+          <li>ตารางเรียน/สอบ</li>
+          <li>ผลการศึกษา</li>
+          <li>ภาระค่าใช้จ่ายทุน</li>
+          <li>ข้อมูลนักศึกษา</li>
+        </ul>
+      </div>
     </main>
   );
 }
