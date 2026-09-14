@@ -1,16 +1,3 @@
-// import CourseCard from "@/components/CourseCard";
-// import { courses } from "@/data/coursesdata";
-
-// export default function CoursesPage() {
-//   return (
-//     <div>
-//       {courses.map((course) => (
-//         <CourseCard key={course.id} course={course} />
-//       ))}
-//     </div>
-//   );
-// }
-
 import CourseCard from "@/components/CourseCard";
 import { courses } from "@/data/coursesdata";
 

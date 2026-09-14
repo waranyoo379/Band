@@ -10,7 +10,7 @@ export default function AboutPage() {
           <li>ตารางเรียน/สอบ</li>
           <li>ผลการศึกษา</li>
           <li>ภาระค่าใช้จ่ายทุน</li>
-          <li>ข้อมูลนักศึกษา</li>
+          <li>ข้อมูลนักศึกษา</li> 
         </ul>
       </div>
     </main>
